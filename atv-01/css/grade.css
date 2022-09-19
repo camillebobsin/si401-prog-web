@@ -1,0 +1,19 @@
+@import url(/atv-01/css/styles.css);
+
+.formula {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+}
+
+h2 {
+    margin-top: 3vh;
+}
+
+h3, p {
+    margin-top: 2vh;
+}
+
+#dict {
+    margin-top: 2vh;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/atv-01/css/grade.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="/atv-01/assets/logo-unicamp.png" alt="Unicamp">
+        <ul id="nav-list">
+            <li>
+                <a class="nav-index" href="/atv-01/menu.html">SI401B - Programação para a Web</a>
+            </li>
+            <li>
+                <a class="nav-index" href="/atv-01/content.html">Conteúdo programático</a>
+            </li>
+            <li>
+                <a class="nav-index-active" href="/atv-01/grade.html">Cálculo da nota</a>
+            </li>
+            <li>
+                <a class="nav-index" href="#">Referências</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Cálculo da nota</h1>
+        <h2>Avaliação da aprendizagem:</h2>
+        <p>A disciplina contará com um <b>Projeto Final</b> (a ser desenvolvido em grupo), dividido em três entregas parciais ao longo do semestre, e uma série de exercícios práticos de fixação (a serem desenvolvidos individualmente). Tais atividades serão utilizadas para avaliar a aprendizagem do aluno.</p>
+        <p>Particularmente no caso do Projeto Final, as notas individuais de cada aluno serão atribuídas conforme sua contribuição em cada etapa.</p>
+
+        <h2>Cálculo da média parcial:</h2>
+        <p>A nota final do projeto será dada por:</p>
+        <h3 class="formula">P = 0,20 * P1 + 0,50 * P2 + 0,30 * P3</h3>
+        <p>A média do aluno será dada por:</p>
+        <h3 class="formula">M = 0,75 * P + 0,25 * T</h3>
+        <p>Onde:</p>
+        <ul id="dict">
+            <li><b>P1 – </b>Nota da primeira avaliação parcial do Projeto</li>
+            <li><b>P2 – </b>Nota da segunda avaliação parcial do Projeto</li>
+            <li><b>P3 – </b>Nota da terceira avaliação parcial do Projeto</li>
+            <li><b>P – </b>Nota final do Projeto</li>
+            <li><b>T – </b>Média dos exercícios práticos de fixação desenvolvidos ao longo do semestre</li>
+            <li><b>M – </b>Média do aluno</li>
+            <li><b>Mf – </b>Média final no semestre</li>
+            <li><b>E – </b>Nota do Exame</li>
+        </ul>
+
+        <h2>Exame</h2>
+        <p>A média parcial mínima necessária para ser <u>aprovado sem exame</u> é de <b>6,0</b>.</p>
+        <p>A média parcial mínima necessária para <u>poder realizar o exame</u> é de <b>2,5</b>.</p>
+
+        <h2>Média final</h2>
+        <h3>Se M < 2,5:</h3>
+        <p>Reprovação direta.</p>
+        <p>Mf = M.</p>
+        <h3>Se M >= 6,0:</h3>
+        <p>Aprovação direta.</p>
+        <p>Mf = M.</p>
+        <h3>Se 2,5 <= M < 6,0 :</h3>
+        <p>Exame obrigatório.</p>
+        <p>Mf = 0,6 * M + 0,4 * E.</p>
+        <p>Após o exame, o aluno será considerado aprovado se Mf >= 5,0.</p>
+    </section>
+</body>
+</html>

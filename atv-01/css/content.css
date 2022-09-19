@@ -1,43 +1,7 @@
 @import url(/atv-01/css/styles.css);
 
-#list {
-    height: 20vh;
-    width: 25vw;
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#section-list {
-    height: 16vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-}
-
-.item {
-    text-decoration: none;
-    color: black;
-    transition: .5s;
-}
-
-.item:hover {
-    color: blue;
-    font-weight: bold;
-}
-
-.content {
-    margin-top: 3vh;
-    font-weight: normal;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 h2 {
     margin-top: 3vh;
-    /* margin-bottom: 1vh; */
 }
 
 h3 {
