@@ -23,7 +23,7 @@
 }
 
 .item:hover {
-    color: blue;
+    color: rgb(143, 92, 191);
     font-weight: bold;
 }
 

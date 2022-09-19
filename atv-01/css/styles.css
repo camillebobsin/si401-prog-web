@@ -3,6 +3,10 @@
     font-family: 'Inter';
 }
 
+body {
+    background-color: #EAEBED;
+}
+
 nav {
     height: 14vh;
     width: 100vw;
@@ -11,7 +15,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: blueviolet;
     line-height: 10.5vh;
     align-items: center;
 }
@@ -31,7 +35,7 @@ nav {
 .nav-index-active {
     text-decoration: none;
     margin-right: 3vw;
-    color: blue;
+    color: white;
     font-weight: bold;
 }
 
@@ -43,7 +47,7 @@ nav {
 }
 
 .nav-index:hover {
-    color: blue;
+    color: white;
     font-weight: bold;
 }
 
@@ -61,4 +65,13 @@ section {
 h1 {
     margin-left: auto;
     margin-right: auto;
+    color: rgb(122, 51, 189);
+}
+
+h2 {
+    color: rgb(143, 92, 191);
+}
+
+h3 {
+    color: rgb(138, 98, 175);
 }
