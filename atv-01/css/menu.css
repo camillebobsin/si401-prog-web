@@ -1,5 +1,10 @@
 @import url(/atv-01/css/styles.css);
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 16vh;
+}
+
 #list {
     height: 20vh;
     width: 25vw;
